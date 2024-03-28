@@ -1,0 +1,91 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Strona główna";
+}
+
+<!-- MAIN (Center website) -->
+<div class="main">
+<h1>Galeria</h1>
+<hr>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Wszystko</button>
+  <button class="btn" onclick="filterSelection('art')"> Sztuka</button>
+  <button class="btn" onclick="filterSelection('nature')"> Natura</button>
+  <button class="btn" onclick="filterSelection('holiday')"> Wakacje</button>
+
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column art">
+    <div class="content">
+      <img src="img/pexels-photo-1070534.jpeg" alt="art" style="width:100%">
+      <h5>Odkrywanie głębi ekspresji</h5>
+      <p>Zanurz się w urzekającym świecie sztuki, która przekracza granice i przekazuje emocje nie do opisania.</p>
+    </div>
+  </div>
+  <div class="column art">
+    <div class="content">
+    <img src="img/pexels-photo-1227497.jpeg" alt="art" style="width:100%">
+      <h5>Od płótna do duszy</h5>
+      <p>Odkryj głęboki wpływ, jaki sztuka ma na jednostki, rozpalając pasje i wspierając rozwój osobisty.</p>
+    </div>
+  </div>
+  <div class="column art">
+    <div class="content">
+    <img src="img/pexels-photo-2346120.jpeg" alt="art" style="width:100%">
+      <h5>Odsłonięcie piękna różnorodności</h5>
+      <p>Bądź świadkiem niezwykłej zdolności sztuki do łączenia kultur, celebrowania różnic i jednoczenia ludzi ze wszystkich środowisk.</p>
+    </div>
+  </div>
+  
+  <div class="column nature">
+    <div class="content">
+      <img src="img/pexels-photo-1287124.jpeg" alt="nature" style="width:100%">
+      <h5>Uzdrawiająca moc natury</h5>
+      <p>Zanurz się w głębokim i zmieniającym życie doświadczeniu zanurzenia się w inspirującym pięknie i spokojnym spokoju świata przyrody, rozpalając w sobie poczucie wewnętrznego spokoju i rewitalizacji.</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="img/pexels-photo-167699.jpeg" alt="nature" style="width:100%">
+      <h5>Ponadczasowy blask natury</h5>
+      <p>Wyrusz w czarującą podróż, aby odkryć hipnotyzujące cuda naszej planety, od majestatycznych gór po dziewicze wybrzeża, przypominające nam o budzącym podziw pięknie, które nas otacza.</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="img/pexels-photo-2387873.jpeg" alt="nature" style="width:100%">
+      <h5>Ochrona naszego naturalnego dziedzictwa</h5>
+      <p>Obejmując wezwanie do ochrony przyrody” — przyłącz się do globalnych wysiłków na rzecz ochrony naszych cennych ekosystemów, uznając kluczowe znaczenie zachowania naszego dziedzictwa naturalnego, aby przyszłe pokolenia mogły się nim cieszyć i rozwijać.</p>
+    </div>
+  </div>
+
+  <div class="column holiday">
+    <div class="content">
+      <img src="img/pexels-photo-872831.jpeg" alt="holiday" style="width:100%">
+      <h5>Rozpakowywanie magii</h5>
+      <p>Wyrusz w urzekającą podróż do urzekającego ducha świąt, gdzie symfonia migoczących świateł, świątecznych dekoracji i podnoszących na duchu tradycji splata się, tworząc niezwykłą atmosferę.</p>
+    </div>
+  </div>
+  <div class="column holiday">
+    <div class="content">
+    <img src="img/pexels-photo-1329711.jpeg" alt="holiday" style="width:100%">
+      <h5>Od tradycji do świętowania</h5>
+      <p>Zagłęb się w różnorodne tradycje świąteczne na całym świecie, od wesołych prezentów po przepyszne uczty, świętując wyjątkowe sposoby, w jakie różne kultury spotykają się, aby cieszyć się tą porą roku.</p>
+    </div>
+  </div>
+  <div class="column holiday">
+    <div class="content">
+    <img src="img/pexels-photo-1105666.jpeg" alt="holiday" style="width:100%">
+      <h5>Tworzenie trwałych wspomnień</h5>
+      <p>Wykorzystaj okazję do stworzenia cennych wspomnień z bliskimi, gdy śmiech wypełnia powietrze, pyszne aromaty unoszą się z kuchni, a duch dawania i wdzięczności jednoczy nas wszystkich w tym wyjątkowym czasie w roku.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
